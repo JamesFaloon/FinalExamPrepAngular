@@ -8,10 +8,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './modules/material-ui.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<form [formGroup]="studentForm" (ngSubmit)="Submit()">
+    <mat-form-field>
+        <mat-label> Student Name</mat-label>
+        <input matInput formControlName="name">
+
+    </mat-form-field>
+    <button mat-raised-button type="submit"> submit </button>
+</form>
